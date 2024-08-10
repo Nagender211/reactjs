@@ -6,15 +6,15 @@
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reactjs</title>
+    <title>ReactJsx</title>
 </head>
 <body>
     <div id="root"></div>
-    <script type="module">
-        const root=document.getElementById('root');
-        const element=React.createElement('h1',{className: "gretting"},  "hello Reactjs");
-        ReactDOM.render(element,root);
-
-    </script>
+    <script type="text/babel">
+        const root= document.getElementById("root");
+        const element= <h1 className="greeting">Hello Jsx syntax</h1>
+        ReactDOM.render(element,root)
+    </script>    
 </body>
+
 </html>
