@@ -10,10 +10,18 @@
 </head>
 <body>
     <div id="root"></div>
-    <script type="module">
+    <script type="text/babel">
         const root=document.getElementById('root');
-        const element=React.createElement('h1',{className: "gretting"},  "hello Reactjs");
-        ReactDOM.render(element,root);
+        const Welcome=({first,last})=> <h1 className="greeitng">{first}  {last}</h1>
+        const Greeting=()=>(
+            <div>
+                <Welcome first="Dharmakari" last="Nagender" />
+                <Welcome first="Dharmakari" last="Sai" />
+            </div>
+        )
+        ReactDOM.render((
+            <Greeting />
+        ),root);
 
     </script>
 </body>

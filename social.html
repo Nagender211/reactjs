@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./social.css" />
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <button id="btn3">small screen</button>
+        <button id="btn2">medium screen</button>
+    </div>
+    <div id="root">
+        
+    </div>
+
+    <script type="text/babel">
+        const root=document.getElementById('root');
+        const btn3=document.getElementById('btn3')
+        const btn2=document.getElementById('btn2')
+        function small(){
+            const element=(
+            <div className="back1">
+                <h2>Scoial Media</h2>
+                <div className="buttons">
+                    <button className="like">Like</button>
+                    <button className="comment">Comment</button>
+                    <button className="share">Share</button>
+                </div>
+             
+            </div>
+        )
+        ReactDOM.render(element,root)
+
+        }
+        function larger(){
+            const element=(
+            <div className="back2">
+                <h2>Scoial Media</h2>
+                <div className="buttons2">
+                    <button className="like2">Like</button>
+                    <button className="comment2">Comment</button>
+                    <button className="share2">Share</button>
+                </div>
+             
+            </div>
+        )
+        ReactDOM.render(element,root)
+
+        }
+        btn3.addEventListener('click',small)
+        btn2.addEventListener('click',larger)
+       
+
+    </script>
+</body>
+</html>
