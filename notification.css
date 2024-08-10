@@ -1,0 +1,255 @@
+.back{
+    position: relative;
+    height: 100vh;
+    color: #0f172a;
+    align-items: center;
+    width: 576px;
+    display: flex;
+    font-family: Roboto;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url('https://assets.ccbp.in/frontend/react-js/congrats-card-bg.png');
+}
+.back .notification{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+.notification .a{
+    
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 55px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+}
+.a img{
+    position: absolute;
+    padding: 7px 10px;
+    height: 30px;
+    width: 30px;
+}
+.notification .a .para{
+    position: relative;
+    padding: 00px 55px;
+}
+.notification .d{
+    
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    color: #fff;
+    background-color: #ff0b37;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 55px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+}
+.d img{
+    position: absolute;
+    padding: 7px 10px;
+    height: 30px;
+    width: 30px;
+}
+.notification .d .para{
+    position: relative;
+    padding: 00px 55px;
+}
+.notification .c{
+    
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    color: #fff;
+    background-color: #ffb800;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 55px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+}
+.c img{
+    position: absolute;
+    padding: 7px 10px;
+    height: 30px;
+    width: 30px;
+}
+.notification .c .para{
+    position: relative;
+    padding: 00px 55px;
+}
+.notification .b{
+    
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    color: #fff;
+    background-color: #2dca73;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 55px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+}
+.b img{
+    position: absolute;
+    padding: 7px 10px;
+    height: 30px;
+    width: 30px;
+}
+.notification .b .para{
+    position: relative;
+    padding: 00px 55px;
+    
+}
+
+
+
+
+.back1{
+    position: relative;
+    height: 100vh;
+    color: #0f172a;
+    align-items: center;
+    width: 806px;
+    display: flex;
+    font-family: Roboto;
+    flex-direction: column;
+    justify-content: center;
+        background-image: url('https://assets.ccbp.in/frontend/react-js/congrats-card-bg.png');
+    
+}
+.back1 .notification1{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+.notification1 .a1{
+    
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 85px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+}
+.a1 img{
+    position: absolute;
+    padding: 7px 10px;
+    height: 30px;
+    width: 30px;
+}
+.notification1 .a1 .para1{
+    position: relative;
+    padding: 00px 55px;
+}
+.notification1 .d1{
+    
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    color: #fff;
+    background-color: #ff0b37;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 85px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+}
+.d1 img{
+    position: absolute;
+    padding: 7px 10px;
+    height: 30px;
+    width: 30px;
+}
+.notification1 .d1 .para1{
+    position: relative;
+    padding: 00px 55px;
+}
+.notification1 .c1{
+    
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    color: #fff;
+    background-color: #ffb800;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 85px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+}
+.c1 img{
+    position: absolute;
+    padding: 7px 10px;
+    height: 30px;
+    width: 30px;
+}
+.notification1 .c1 .para1{
+    position: relative;
+    padding: 00px 55px;
+}
+.notification1 .b1{
+    
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    color: #fff;
+    background-color: #2dca73;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 85px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+}
+.b1 img{
+    position: absolute;
+    padding: 7px 10px;
+    height: 30px;
+    width: 30px;
+}
+.notification1 .b1 .para1{
+    position: relative;
+    padding: 00px 55px;
+    
+}
+
+
+
+
+
+
+
+
+
+

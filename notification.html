@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./notification.css" />
+    <title>Notification</title>
+</head>
+<body>
+    <div>
+        <button id="btn1">Small screen</button>
+        <button id="btn2">larger screen</button>
+
+    </div>
+    <div id="root"></div>
+    
+    <script type="text/babel">
+        const root=document.getElementById('root');
+        const btn1=document.getElementById('btn1');
+        const btn2=document.getElementById('btn2');
+        function small(){
+            const element=(
+            <div className="back">
+                <h1>Notification</h1>
+                <div className="notification">
+                    <div className="a">
+                        <img src="https://assets.ccbp.in/frontend/react-js/primary-icon-img.png" />
+                        <p className="para">Notification Message</p>
+                    </div>
+                    <div className="b"><img src="https://assets.ccbp.in/frontend/react-js/success-icon-img.png" />
+                        <p className="para">Notification Message</p>
+                    </div>
+                    <div className="c">
+                        <img src="https://assets.ccbp.in/frontend/react-js/warning-icon-img.png" />
+                        <p className="para">Notification Message</p>
+                    </div>
+                    <div className="d">
+                        <img src="https://assets.ccbp.in/frontend/react-js/danger-icon-img.png" />
+                        <p className="para">Notification Message</p>
+                    </div>
+                </div>
+            </div>
+        )
+        ReactDOM.render(element,root)
+
+
+        }
+        function larger(){
+            const element=(
+            <div className="back1">
+                <h1>Notification</h1>
+                <div className="notification1">
+                    <div className="a1">
+                        <img src="https://assets.ccbp.in/frontend/react-js/primary-icon-img.png" />
+                        <p className="para1">Notification Message</p>
+                    </div>
+                    <div className="b1"><img src="https://assets.ccbp.in/frontend/react-js/success-icon-img.png" />
+                        <p className="para1">Notification Message</p>
+                    </div>
+                    <div className="c1">
+                        <img src="https://assets.ccbp.in/frontend/react-js/warning-icon-img.png" />
+                        <p className="para1">Notification Message</p>
+                    </div>
+                    <div className="d1">
+                        <img src="https://assets.ccbp.in/frontend/react-js/danger-icon-img.png" />
+                        <p className="para1">Notification Message</p>
+                    </div>
+                </div>
+            </div>
+        )
+        ReactDOM.render(element,root)
+
+
+        }
+        btn1.addEventListener('click',small);
+        btn2.addEventListener('click',larger);
+        
+       
+    </script>
+</body>
+</html>

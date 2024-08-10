@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./box.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box</title>
+</head>
+<body>
+    <div>
+        <button id="btn1">small screen</button>
+        <button id="btn2">larger screen</button>
+    </div>
+    <div id="root"></div>
+    <script type="text/babel">
+        const root=document.getElementById('root');
+        const btn1=document.getElementById('btn1');
+        const btn2=document.getElementById('btn2');
+        function small(){
+            const element=(
+                <div className="back">
+                    <h3>Boxes</h3>
+                    <div className="box">
+                        <div className="box1"></div>
+                        <div className="box2"></div>
+                        <div className="box3"></div>
+                    </div>
+                    
+                </div>
+            )
+            ReactDOM.render(element,root)
+        }
+        function larger(){
+            const element=(
+                <div className="back1">
+                    <h3>Boxes</h3>
+                    <div className="boxs">
+                        <div className="boxs1"></div>
+                        <div className="boxs2"></div>
+                        <div className="boxs3"></div>
+                    </div>
+                    
+                </div>
+            )
+            ReactDOM.render(element,root)
+        }
+        btn1.addEventListener('click',small)
+        btn2.addEventListener('click',larger)
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+.back{
+    position: relative;
+    height: 100vh;
+    color: #0f172a;
+    align-items: center;
+    width: 576px;
+    display: flex;
+    font-family: Roboto;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url('https://assets.ccbp.in/frontend/react-js/congrats-card-bg.png');
+}
+.back .box{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+.box .box1{
+    width: 60px;
+    height: 60px;
+    background-color: #536dfe;
+    align-items: center;
+}
+.box .box2{
+    width: 80px;
+    height: 80px;
+    background-color: #ec33a5;
+    align-items: center;
+}
+.box .box3{
+    width: 100px;
+    height: 100px;
+    background-color: #0ed83a;
+    align-items: center;
+}
+
+
+
+
+
+.back1{
+    position: relative;
+    height: 100vh;
+    color: #0f172a;
+    align-items: center;
+    width: 906px;
+    display: flex;
+    font-family: Roboto;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url('https://assets.ccbp.in/frontend/react-js/congrats-card-bg.png');
+}
+.back1 .boxs{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: center;
+}
+.boxs .boxs1{
+    width: 50px;
+    height: 50px;
+    background-color: #536dfe;
+    align-items: center;
+}
+.boxs .boxs2{
+    width: 70px;
+    height: 70px;
+    background-color: #ec33a5;
+    align-items: center;
+}
+.boxs .boxs3{
+    width: 80px;
+    height: 80px;
+    background-color: #0ed83a;
+    align-items: center;
+}
+
