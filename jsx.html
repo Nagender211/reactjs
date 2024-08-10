@@ -7,22 +7,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ReactJsx</title>
+    <link rel="stylesheet" href="./jsx.css" />
 </head>
 <body>
-    <div id="root"></div>
+    <div>
+        <button id="btn1" class="stylebtn1 active">small Size</button>
+        <button id="btn2" class="stylebtn2">large Size</button>
+    </div>
+    <div id="root">
+        
+    </div>
     <script type="text/babel">
         const root= document.getElementById("root");
-        function fullNmae(user){
-            return user.firstName + ' '+user.lastName;
-
+        const btn1=document.getElementById("btn1");
+        const btn2=document.getElementById("btn2");
+            function small(){
+                const active=btn1.classList.add("active")
+                const element= (
+                    <div className="back">
+                        <h1 className="head1" >Congratulation</h1>
+                        <div className="container">
+                        <div className="images">
+                        <img className="img1" src="https://assets.ccbp.in/frontend/react-js/congrats-card-profile-img.png" />
+                        <h3 className="h3">Dharmakari Nagender</h3>
+                        <p>Sreenidhi inistuite of scince and technology Electrinicsjfisjfidsfi </p>
+                        <img className="img2" src="https://assets.ccbp.in/frontend/react-js/congrats-card-watch-img.png" />
+                        
+                        </div>
+                        </div>
+                        
+                       
+                        
+                    </div>
+                    
+                )
+            ReactDOM.render(element,root)
         }
-        const firstName=prompt("enter your firstName");
-        const lastName=prompt("Enter your last Name:")
-        const user={firstName, lastName}
        
-        const style="style";
-        const element= <h1 className={style}>Hello {fullNmae(user)}</h1>
-        ReactDOM.render(element,root)
+        function large(){
+            const element= (
+                    <div className="back2">
+                        
+                        <h1 className="head1">Congratulation</h1>
+                        <div className="container">
+                        <div className="images">
+                        <img className="img" src="https://assets.ccbp.in/frontend/react-js/congrats-card-profile-img.png" />
+                        <h3 className="h3">Dharmakari Nagender</h3>
+                        <p>Sreenidhi inistuite of scince and technology Electrinicsjfisjfidsfi </p>
+                        <img className="img" src="https://assets.ccbp.in/frontend/react-js/congrats-card-watch-img.png" />
+                        
+                        </div>
+                        </div>
+                        
+                    </div>
+                )
+            ReactDOM.render(element,root)
+            
+        }
+        console.log(btn1.addEventListener('click',small));
+        console.log(btn2.addEventListener('click',large));
     </script>    
 </body>
 

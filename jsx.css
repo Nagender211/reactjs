@@ -1,0 +1,126 @@
+.back{
+    position: relative;
+    height: 100vh;
+
+    align-items: center;
+    width: 576px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url('https://assets.ccbp.in/frontend/react-js/congrats-card-bg.png');
+  
+   
+}
+.back .head1{
+    color: #0f172a;
+    font-family: Roboto;
+}
+
+.back .container{
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    height: 550px;
+    border-radius: 10px;
+    background-color: #cffafe;
+}
+.container .images{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container .images .h3{
+    color: #1e293b;
+}
+
+.container .images p{
+    
+    color: #1e293b;
+    text-align: center;
+    
+}
+.images .img1 {
+    width: 150px;
+}
+.images .img2{
+    width: 150px;
+}
+.back2{
+    position: relative;
+    height: 100vh;
+
+    align-items: center;
+    width: 850px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url('https://assets.ccbp.in/frontend/react-js/congrats-card-bg.png');
+   
+}
+
+
+
+.back2 .head1{
+    color: #0f172a;
+    align-items: center;
+    font-family: Roboto;
+}
+.back2 .container{
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    height: 600px;
+    border-radius: 10px;
+    background-color: #cffafe;
+}
+.container .images{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container .images .h3{
+    color: #1e293b;
+}
+
+.container .images p{
+    
+    color: #1e293b;
+    text-align: center;
+    
+}
+.images .img {
+    width: 150px;
+}
+.images .img{
+    width: 150px;
+}
+.stylebtn1{
+    background-color: #212529;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.stylebtn1::after{
+    background: #71afec;
+}
+.stylebtn1:hover{
+    background-color: #343a40;
+}
+.stylebtn2{
+    background-color: #212529;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.stylebtn2:hover{
+    background-color: #343a40;
+}
